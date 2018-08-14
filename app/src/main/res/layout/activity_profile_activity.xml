@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Profile_activity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/re1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/new_color">
+
+
+        <LinearLayout
+            android:id="@+id/back_button_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:clickable="true"
+            android:onClick="backClick"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="@dimen/home_icon_size"
+                android:layout_height="@dimen/home_icon_size"
+                android:src="@drawable/ic_back" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/re2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_border"
+                android:src="@drawable/profile" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/re1"
+        android:layout_x="0dp"
+        android:layout_y="209dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMAIL"
+                    android:textColor="#00bfff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/mymail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="manali shetye"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#778899" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT"
+                    android:textColor="#00bfff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/mycontact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="800000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#778899" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/change_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="199dp"
+            android:layout_x="168dp"
+            android:layout_y="305dp"
+            android:fontFamily="sans-serif-light"
+            android:onClick="change_pass"
+            android:text="Change Password"
+            android:textColor="#00bfff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/iname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="154dp"
+        android:layout_y="175dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintRight_toRightOf="@+id/welcome"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/LogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_x="283dp"
+        android:layout_y="407dp"
+        android:fontFamily="sans-serif-light"
+        android:onClick="LogOut"
+        android:text="LogOut"
+        android:textColor="#00bfff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+</AbsoluteLayout>

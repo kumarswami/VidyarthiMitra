@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/new_color"
+    tools:context=".Contactus">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="114dp"
+        android:layout_y="29dp"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_x="15dp"
+        android:layout_y="106dp"
+        android:text="PUNE:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ph1"
+        android:layout_marginTop="110dp"
+        android:layout_x="16dp"
+        android:layout_y="139dp"
+        android:text="1/A-4, 1st Floor, Fountain Head Aptt.,
+G A Kulkarni Path (Opp. Starbucks and Near Karishma Society),Kothrud, Pune - 411038 "
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_x="19dp"
+        android:layout_y="265dp"
+        android:text="MUMBAI:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_x="19dp"
+        android:layout_y="303dp"
+        android:text="Andhra Mahasabha,
+10/C, Lakhamsi Napoo Road, Dadar(E),
+Mumbai - 400014"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/ph1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-30dp"
+        android:layout_x="47dp"
+        android:layout_y="371dp"
+        android:text="+91 7720025900"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="370dp"
+        android:onClick="oncall1"/>
+
+    <TextView
+        android:id="@+id/ph2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="93dp"
+        android:layout_x="47dp"
+        android:layout_y="406dp"
+        android:text="+91 7720081400"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="399dp"
+        android:onClick="oncall2"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="177dp"
+        android:layout_x="59dp"
+        android:layout_y="447dp"
+        android:text="contact@vidyarthimitra.org"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-243dp"
+        android:layout_x="57dp"
+        android:layout_y="475dp"
+        android:text="info@vidyarthimitra.org"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <ImageView
+        android:id="@+id/email_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="474dp"
+        app:srcCompat="@drawable/ic_mail_outline_black_24dp"
+        tools:ignore="MissingConstraints,OnClick,VectorDrawableCompat"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:onClick="onemailinfo"/>
+
+    <ImageView
+        android:id="@+id/email_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_x="22dp"
+        android:layout_y="444dp"
+        app:srcCompat="@drawable/ic_mail_outline_black_24dp"
+        tools:ignore="MissingConstraints,OnClick,VectorDrawableCompat"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="480dp"
+        android:onClick="onemailcon"/>
+
+    <ImageView
+        android:id="@+id/call_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="403dp"
+        app:srcCompat="@drawable/ic_local_phone_black_24dp"
+        tools:ignore="MissingConstraints,OnClick,VectorDrawableCompat"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="370dp"
+        android:onClick="oncall2"/>
+
+    <ImageView
+        android:id="@+id/call_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="369dp"
+        app:srcCompat="@drawable/ic_local_phone_black_24dp"
+        tools:ignore="MissingConstraints,OnClick,VectorDrawableCompat"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="399dp"
+        android:onClick="oncall1"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_x="17dp"
+        android:layout_y="199dp"
+        android:text="5, Tulsi Bhavan, 1194/14A,
+Modern College Road (Off F C Road), Shivaji Nagar,
+Pune - 411005 "
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="234dp"
+        app:srcCompat="@drawable/ic_location"
+        tools:ignore="MissingConstraints,OnClick,VectorDrawableCompat"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:onClick="onmap"/>
+
+</AbsoluteLayout>

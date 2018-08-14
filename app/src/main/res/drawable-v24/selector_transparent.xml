@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/percent15" android:state_pressed="true"  />
+    <item android:drawable="@color/percent15" android:state_activated="true" android:state_selected="true" />
+    <item android:drawable="@color/fullTransparent" android:state_selected="false" />
+</selector>

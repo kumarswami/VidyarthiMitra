@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="red">#f90a0a</color>
+    <color name="divider">#8c9e9e9e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="new_color">#182b5b</color>
+    <color name="navyblue">#000080</color>
+    <color name="orange">#ff3935</color>
+    <color name="dark_text">#1D1D26</color>
+    <color name="light_text">#ACAAA8</color>
+    <color name="darker_text">#3E3E3D</color>
+    <color name="newcolor1">#d6d6d6</color>
+    <color name="percent15">#26000000</color>
+    <color name="percent15white">#26ffffff</color>
+    <color name="fullTransparent">#00000000</color>
+    <color name="colorBottomNavigation">#03A9F4</color>
+    <color name="grid">#fee099</color>
+    <color name="bg_color">#e8edf3</color>
+
+
+    <!--<color name="colorPrimary">#f2b632</color>-->
+    <!--<color name="colorPrimaryDark">#22264b</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+</resources>

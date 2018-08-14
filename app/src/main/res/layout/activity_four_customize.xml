@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:id="@+id/bottomBar"
+    android:background="@color/new_color"
+    >
+
+    <TextView
+        android:id="@+id/customize_id"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text=" News"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavView_Bar"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation_menu"
+        ></android.support.design.widget.BottomNavigationView>
+
+</android.support.design.widget.CoordinatorLayout>
